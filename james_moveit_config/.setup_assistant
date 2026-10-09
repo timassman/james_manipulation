@@ -1,0 +1,8 @@
+# Tells MoveItConfigsBuilder (and the MoveIt Setup Assistant) where the robot model and the
+# SRDF of this package are. This package was written by hand, not generated.
+moveit_setup_assistant_config:
+  urdf:
+    package: james_description
+    relative_path: urdf/james.urdf.xacro
+  srdf:
+    relative_path: config/james.srdf
